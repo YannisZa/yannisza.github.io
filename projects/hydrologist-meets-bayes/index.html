@@ -40,7 +40,7 @@ In my first 8-week mini-project in Cambridge I attempted to do just that; introd
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="#EE3C35">
   
 
   
@@ -196,7 +196,7 @@ In my first 8-week mini-project in Cambridge I attempted to do just that; introd
   
   
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   
 
   
@@ -208,6 +208,44 @@ In my first 8-week mini-project in Cambridge I attempted to do just that; introd
   
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G1VHH9QBW3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-G1VHH9QBW3', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
   
@@ -431,6 +469,8 @@ In my first 8-week mini-project in Cambridge I attempted to do just that; introd
   <h1>Hydrologist meets Bayes</h1>
 
   
+  <p class="page-subtitle">An introduction to Bayesian hydrological modelling</p>
+  
 
   
     
@@ -489,7 +529,7 @@ In my first 8-week mini-project in Cambridge I attempted to do just that; introd
     <div class="article-style">
       <p>What does a hydrologist do when they want to estimate the rate of water volume generation and cannot calibrate their parametric model? Well, there are many answers to that question. A particularly robust one involves treating the model parameters as random variables, also known as a <em>Bayesian</em> treatment of the model.</p>
 <p>In my first 8-week mini-project in Cambridge I attempted to do just that; introduce an approach in hydrology that incorporates domain expertise from hydrological models and data into a unified (hybrid) modelling framework. The <em>Bayesian</em> nature of the framework meant that one can quantify the uncertainty in model parameters and propagate it all the way to model predictions of water discharge.</p>
-<p>You can <strong>read the full report 
+<p>You can <strong>read my full report 
 <a href="https://yannisza.github.io/files/mini_project_censored.pdf" target="_blank" rel="noopener">here.</a>
 </strong></p>
 

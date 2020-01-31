@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="Graduate student @ University of Cambridge">
+  <meta name="description" content="Research student at the University of Cambridge">
 
   
   <link rel="alternate" hreflang="en-gb" href="https://yanniszachos.github.io/projects/">
@@ -39,7 +39,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="#EE3C35">
   
 
   
@@ -195,7 +195,7 @@
   
   
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   
 
   
@@ -207,6 +207,44 @@
   
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G1VHH9QBW3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-G1VHH9QBW3', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
   
@@ -235,7 +273,7 @@
   <meta property="og:site_name" content="Yannis Zachos">
   <meta property="og:url" content="https://yanniszachos.github.io/projects/">
   <meta property="og:title" content="Research projects | Yannis Zachos">
-  <meta property="og:description" content="Graduate student @ University of Cambridge"><meta property="og:image" content="https://yanniszachos.github.io/img/yannis">
+  <meta property="og:description" content="Research student at the University of Cambridge"><meta property="og:image" content="https://yanniszachos.github.io/img/yannis">
   <meta property="twitter:image" content="https://yanniszachos.github.io/img/yannis"><meta property="og:locale" content="en-gb">
   
     <meta property="og:updated_time" content="2020-01-15T00:00:00&#43;00:00">
@@ -457,7 +495,7 @@ In my first 8-week mini-project in Cambridge I attempted to do just that; introd
       <h2><a href="/projects/change-how-much-of-it-is-happening/" >Change; how much of it is happening?</a></h2>
       <div class="article-style">
         
-          You can read the full report here.
+          If the information age has taught us anything, it is that things change, and they change fast. Some changes are more obvious than others, which begs the question: how can we be sure that something is really changing and it is not just another trick that noise is playing on us? Well, there is an obvious philosophical take on that question, which however interesting is way beyond my reach. In the world of Statistics and Probability, things are a bit simpler.
         
       </div>
     </div>

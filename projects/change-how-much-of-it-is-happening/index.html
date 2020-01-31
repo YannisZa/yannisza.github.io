@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="You can read the full report here.">
+  <meta name="description" content="If the information age has taught us anything, it is that things change, and they change fast. Some changes are more obvious than others, which begs the question: how can we be sure that something is really changing and it is not just another trick that noise is playing on us? Well, there is an obvious philosophical take on that question, which however interesting is way beyond my reach. In the world of Statistics and Probability, things are a bit simpler.">
 
   
   <link rel="alternate" hreflang="en-gb" href="https://yanniszachos.github.io/projects/change-how-much-of-it-is-happening/">
@@ -39,7 +39,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="#EE3C35">
   
 
   
@@ -195,7 +195,7 @@
   
   
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   
 
   
@@ -207,6 +207,44 @@
   
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G1VHH9QBW3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-G1VHH9QBW3', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
   
@@ -233,7 +271,7 @@
   <meta property="og:site_name" content="Yannis Zachos">
   <meta property="og:url" content="https://yanniszachos.github.io/projects/change-how-much-of-it-is-happening/">
   <meta property="og:title" content="Change; how much of it is happening? | Yannis Zachos">
-  <meta property="og:description" content="You can read the full report here."><meta property="og:image" content="https://yanniszachos.github.io/img/yannis">
+  <meta property="og:description" content="If the information age has taught us anything, it is that things change, and they change fast. Some changes are more obvious than others, which begs the question: how can we be sure that something is really changing and it is not just another trick that noise is playing on us? Well, there is an obvious philosophical take on that question, which however interesting is way beyond my reach. In the world of Statistics and Probability, things are a bit simpler."><meta property="og:image" content="https://yanniszachos.github.io/img/yannis">
   <meta property="twitter:image" content="https://yanniszachos.github.io/img/yannis"><meta property="og:locale" content="en-gb">
   
     
@@ -429,6 +467,8 @@
   <h1>Change; how much of it is happening?</h1>
 
   
+  <p class="page-subtitle">Bayesian online changepoint detection of point processes</p>
+  
 
   
     
@@ -485,7 +525,11 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>You can <strong>read the full report 
+      <p>If the information age has taught us anything, it is that things change, and they change fast. Some changes are more obvious than others, which begs the question: how can we be sure that something is really changing and it is not just another trick that noise is playing on us? Well, there is an obvious philosophical take on that question, which however interesting is way beyond my reach. In the world of Statistics and Probability, things are a bit simpler.</p>
+<p>I decided to take on the task of answering that question as part of my final year undergraduate thesis, which was supervised by 
+<a href="https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/damoulas/" target="_blank" rel="noopener">Dr. Theodoros Damoulas.</a>
+ My focus was on developing an Bayesian online changepoint detection framework for discrete data generating processes (point processes).</p>
+<p>You can <strong>read my entire thesis 
 <a href="https://yannisza.github.io/files/dissertation.pdf" target="_blank" rel="noopener">here.</a>
 </strong></p>
 
