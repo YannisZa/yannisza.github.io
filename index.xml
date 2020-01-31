@@ -30,7 +30,8 @@
       <link>https://yanniszachos.github.io/projects/change-how-much-of-it-is-happening/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
       <guid>https://yanniszachos.github.io/projects/change-how-much-of-it-is-happening/</guid>
-      <description>&lt;p&gt;If the information age has taught us anything, it is that things change, and they change fast. Some changes are more obvious than others, which begs the question: how can we be sure that something is really changing and it is not just another trick that noise is playing on us? Well, there is an obvious philosophical take on that question, which however interesting is way beyond my reach. In the world of Statistics and Probability, things are a bit simpler.&lt;/p&gt;
+      <description>&lt;p&gt;If the information age has taught us anything, it is that things change, and they change fast. Some changes are more obvious than others, which begs the question: how can we be sure that something is really changing and it is not just another trick that noise is playing on us?&lt;/p&gt;
+&lt;p&gt;Well, there is an obvious philosophical take on that question, which however interesting is way beyond my reach. In the world of Statistics and Probability, things are a bit simpler.&lt;/p&gt;
 &lt;p&gt;I decided to take on the task of answering that question as part of my final year undergraduate thesis, which was supervised by 
 &lt;a href=&#34;https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/damoulas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Theodoros Damoulas.&lt;/a&gt;
  My focus was on developing an Bayesian online changepoint detection framework for discrete data generating processes (point processes).&lt;/p&gt;
