@@ -5,40 +5,12 @@
     <link>https://yanniszachos.github.io/authors/</link>
       <atom:link href="https://yanniszachos.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>2020</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>© 2020</copyright>
     <image>
-      <url>https://yanniszachos.github.io/img/yannis</url>
+      <url>https://yanniszachos.github.io/img/yannis.jpg</url>
       <title>Authors</title>
       <link>https://yanniszachos.github.io/authors/</link>
     </image>
-    
-    <item>
-      <title></title>
-      <link>https://yanniszachos.github.io/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yanniszachos.github.io/authors/admin/</guid>
-      <description>  &lt;!-- &lt;a href=&#34;https://www.turing.ac.uk/research/research-programmes/data-centric-engineering/data-centric-engineering-journal&#34;&gt;&lt;img src=&#34;https://www.turing.ac.uk/sites/default/files/inline-images/DCE%20logo.png&#34; width=&#34;50%&#34; align=&#34;left&#34;&gt;&lt;/a&gt; --&gt;
-&lt;p&gt;I am a graduate student in the interdisciplinary 
-&lt;a href=&#34;https://www.fibe-cdt.eng.cam.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CDT in Future Infrastructure and Built Environment&lt;/a&gt;
- at the 
-&lt;a href=&#34;http://www.eng.cam.ac.uk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Cambridge&lt;/a&gt;
- supervised by 
-&lt;a href=&#34;https://prof-girolami.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Professor Mark Girolami.&lt;/a&gt;
- My studentship is co-sponsored by 
-&lt;a href=&#34;https://epsrc.ukri.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPSRC&lt;/a&gt;
- and 
-&lt;a href=&#34;https://www.arup.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arup.&lt;/a&gt;
- I am also affiliated with the data-centric engineering programme at the 
-&lt;a href=&#34;https://www.turing.ac.uk/research/research-programmes/data-centric-engineering&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Alan Turing Institute&lt;/a&gt;
- in London. Prior to Cambridge I was working as a Statistical Scientist at an 
-&lt;a href=&#34;https://www.cervest.earth/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AI startup&lt;/a&gt;
- in London. In 2018, I graduated with a first class honours degree in Statistics and Computer Science (Data Science) at the 
-&lt;a href=&#34;https://warwick.ac.uk/fac/sci/statistics/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Warwick&lt;/a&gt;
-. My full CV can be found 
-&lt;a href=&#34;https://yannisza.github.io/files/cv.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here.&lt;/a&gt;
-&lt;/p&gt;
-</description>
-    </item>
     
   </channel>
 </rss>
