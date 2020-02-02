@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yannis Zachos</title>
-    <link>https://yanniszachos.github.io/</link>
-      <atom:link href="https://yanniszachos.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://yannisza.github.io/</link>
+      <atom:link href="https://yannisza.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Yannis Zachos</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>© 2020</copyright><lastBuildDate>Wed, 15 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yanniszachos.github.io/img/yannis.jpg</url>
+      <url>https://yannisza.github.io/img/yannis.jpg</url>
       <title>Yannis Zachos</title>
-      <link>https://yanniszachos.github.io/</link>
+      <link>https://yannisza.github.io/</link>
     </image>
     
     <item>
       <title>Hydrologist meets Bayes</title>
-      <link>https://yanniszachos.github.io/research/hydrologist-meets-bayes/</link>
+      <link>https://yannisza.github.io/research/hydrologist-meets-bayes/</link>
       <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://yanniszachos.github.io/research/hydrologist-meets-bayes/</guid>
+      <guid>https://yannisza.github.io/research/hydrologist-meets-bayes/</guid>
       <description>&lt;p&gt;What does a hydrologist do when they want to estimate the rate of water volume generation and cannot calibrate their parametric model? Well, there are many answers to that question. A particularly robust one involves treating the model parameters as random variables, also known as a &lt;em&gt;Bayesian&lt;/em&gt; treatment of the model.&lt;/p&gt;
 &lt;p&gt;In my first 8-week mini-project in Cambridge I attempted to do just that; introduce an approach in hydrology that incorporates domain expertise from hydrological models and data into a unified (hybrid) modelling framework. The &lt;em&gt;Bayesian&lt;/em&gt; nature of the framework meant that one can quantify the uncertainty in model parameters and propagate it all the way to model predictions of water discharge.&lt;/p&gt;
 &lt;p&gt;You can &lt;strong&gt;read my full report 
@@ -29,9 +29,9 @@
     
     <item>
       <title>Change; how much of it is happening?</title>
-      <link>https://yanniszachos.github.io/research/change-how-much-of-it-is-happening/</link>
+      <link>https://yannisza.github.io/research/change-how-much-of-it-is-happening/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://yanniszachos.github.io/research/change-how-much-of-it-is-happening/</guid>
+      <guid>https://yannisza.github.io/research/change-how-much-of-it-is-happening/</guid>
       <description>&lt;p&gt;If the information age has taught us anything, it is that things change, and they change fast. Some changes are more obvious than others, which begs the question: how can we be sure that something is really changing and it is not just another trick that noise is playing on us?&lt;/p&gt;
 &lt;p&gt;Well, there is an obvious philosophical take on that question, which however interesting is way beyond my reach. In the world of Statistics and Probability, things are a bit simpler.&lt;/p&gt;
 &lt;p&gt;I decided to take on the task of answering that question as part of my final year undergraduate thesis, which was supervised by 
@@ -45,17 +45,17 @@
     
     <item>
       <title></title>
-      <link>https://yanniszachos.github.io/research/sample/</link>
+      <link>https://yannisza.github.io/research/sample/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yanniszachos.github.io/research/sample/</guid>
+      <guid>https://yannisza.github.io/research/sample/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Books</title>
-      <link>https://yanniszachos.github.io/reading/</link>
+      <link>https://yannisza.github.io/reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yanniszachos.github.io/reading/</guid>
+      <guid>https://yannisza.github.io/reading/</guid>
       <description>&lt;p&gt;You can find a list of all the books I have read so far on 
 &lt;a href=&#34;https://www.amazon.co.uk/ideas/amzn1.account.AEKGASM3Z7GYEMYYZ2OSOXB3IJWQ/1KY4HOFY0Z7V9?ref=idea_share&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amazon&lt;/a&gt;
  or on my 
