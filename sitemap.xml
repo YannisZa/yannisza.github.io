@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yannisza.github.io/research/hydrologist-meets-bayes/</loc>
+    <loc>https://yannisza.github.io/research/</loc>
     <lastmod>2020-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yannisza.github.io/research/</loc>
+    <loc>https://yannisza.github.io/research/hydrologist-meets-bayes/</loc>
     <lastmod>2020-01-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -27,16 +27,16 @@
   </url>
   
   <url>
+    <loc>https://yannisza.github.io/reading/</loc>
+  </url>
+  
+  <url>
     <loc>https://yannisza.github.io/research/sample/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://yannisza.github.io/authors/</loc>
-  </url>
-  
-  <url>
-    <loc>https://yannisza.github.io/reading/</loc>
   </url>
   
   <url>
