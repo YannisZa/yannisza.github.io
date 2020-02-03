@@ -20,7 +20,7 @@
       <description>&lt;p&gt;What does a hydrologist do when they want to estimate the rate of water volume generation and cannot calibrate their parametric model? Well, there are many answers to that question. A particularly robust one involves treating the model parameters as random variables, also known as a &lt;em&gt;Bayesian&lt;/em&gt; treatment of the model.&lt;/p&gt;
 &lt;p&gt;In my first 8-week mini-project in Cambridge I attempted to do just that; introduce an approach in hydrology that incorporates domain expertise from hydrological models and data into a unified (hybrid) modelling framework. The &lt;em&gt;Bayesian&lt;/em&gt; nature of the framework meant that one can quantify the uncertainty in model parameters and propagate it all the way to model predictions of water discharge.&lt;/p&gt;
 &lt;p&gt;You can &lt;strong&gt;read my full report 
-&lt;a href=&#34;https://yannisza.github.io/files/mini_project_censored.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here.&lt;/a&gt;
+&lt;a href=&#34;https://yannisza.github.io/files/mini_project_censored.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;
 &lt;/strong&gt; and &lt;strong&gt;look at my codebase 
 &lt;a href=&#34;https://github.com/YannisZa/bayesian-hydrological-modeling&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here.&lt;/a&gt;
 &lt;/strong&gt;&lt;/p&gt;
