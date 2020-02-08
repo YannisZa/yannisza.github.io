@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>Hydrologist meets Bayes</title>
-      <link>https://yannisza.github.io/research/hydrologist-meets-bayes/</link>
+      <title>An introduction to Bayesian hydrological modelling</title>
+      <link>https://yannisza.github.io/research/introduction-to-bayesian-hydrological-modelling/</link>
       <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://yannisza.github.io/research/hydrologist-meets-bayes/</guid>
+      <guid>https://yannisza.github.io/research/introduction-to-bayesian-hydrological-modelling/</guid>
       <description>&lt;p&gt;What does a hydrologist do when they want to estimate the rate of water volume generation and cannot calibrate their parametric model? Well, there are many answers to that question. A particularly robust one involves treating the model parameters as random variables, also known as a &lt;em&gt;Bayesian&lt;/em&gt; treatment of the model.&lt;/p&gt;
 &lt;p&gt;In my first 8-week mini-project in Cambridge I attempted to do just that; introduce an approach in hydrology that incorporates domain expertise from hydrological models and data into a unified (hybrid) modelling framework. The &lt;em&gt;Bayesian&lt;/em&gt; nature of the framework meant that one can quantify the uncertainty in model parameters and propagate it all the way to model predictions of water discharge.&lt;/p&gt;
 &lt;p&gt;You can &lt;strong&gt;read my full report 
@@ -28,10 +28,10 @@
     </item>
     
     <item>
-      <title>Change; how much of it is happening?</title>
-      <link>https://yannisza.github.io/research/change-how-much-of-it-is-happening/</link>
+      <title>Bayesian online changepoint detection of point processes</title>
+      <link>https://yannisza.github.io/research/bayesian-online-changepoint-detection-of-point-processes/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://yannisza.github.io/research/change-how-much-of-it-is-happening/</guid>
+      <guid>https://yannisza.github.io/research/bayesian-online-changepoint-detection-of-point-processes/</guid>
       <description>&lt;p&gt;If the information age has taught us anything, it is that things change, and they change fast. Some changes are more obvious than others, which begs the question: how can we be sure that something is really changing and it is not just another trick that noise is playing on us?&lt;/p&gt;
 &lt;p&gt;Well, there is an obvious philosophical take on that question, which however interesting is way beyond my reach. In the world of Statistics and Probability, things are a bit simpler.&lt;/p&gt;
 &lt;p&gt;I decided to take on the task of answering that question as part of my final year undergraduate thesis, which was supervised by 
