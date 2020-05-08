@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yannisza.github.io/research/</loc>
+    <loc>https://yannisza.github.io/research/introduction-to-bayesian-hydrological-modelling/</loc>
     <lastmod>2020-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yannisza.github.io/research/introduction-to-bayesian-hydrological-modelling/</loc>
+    <loc>https://yannisza.github.io/research/</loc>
     <lastmod>2020-01-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -24,10 +24,6 @@
   
   <url>
     <loc>https://yannisza.github.io/authors/admin/</loc>
-  </url>
-  
-  <url>
-    <loc>https://yannisza.github.io/reading/</loc>
   </url>
   
   <url>
@@ -49,6 +45,10 @@
   
   <url>
     <loc>https://yannisza.github.io/publication/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yannisza.github.io/reading/</loc>
   </url>
   
   <url>
