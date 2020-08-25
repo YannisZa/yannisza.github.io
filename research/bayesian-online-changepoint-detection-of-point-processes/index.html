@@ -28,8 +28,7 @@
   
     
   
-  <meta name="description" content="If the information age has taught us anything, it is that things change, and they change fast. Some changes are more obvious than others, which begs the question: how can we be sure that something is really changing and it is not just another trick that noise is playing on us?
-Well, there is an obvious philosophical take on that question, which however interesting is way beyond my reach. In the world of Statistics and Probability, things are a bit simpler.">
+  <meta name="description" content="This thesis details an approach known as change-point detection (CPD) that aims to detect changes in the mean, variance and covariance of a time series. The scope of CPD is limited to an on-line (real-time) Bayesian spatio-temporal setting. In this setting, the goal of CPD is to provide step-ahead predictions and partition the time series into disjoint segments every time a new datum is received using Bayesian inference. This is achieved by modelling each datum as a sample from a data-generating process which we are imitating using a probability distribution as a model.">
 
   
   <link rel="alternate" hreflang="en-gb" href="https://yannisza.github.io/research/bayesian-online-changepoint-detection-of-point-processes/">
@@ -270,8 +269,7 @@ Well, there is an obvious philosophical take on that question, which however int
   <meta property="og:site_name" content="Yannis Zachos">
   <meta property="og:url" content="https://yannisza.github.io/research/bayesian-online-changepoint-detection-of-point-processes/">
   <meta property="og:title" content="Bayesian online changepoint detection of point processes | Yannis Zachos">
-  <meta property="og:description" content="If the information age has taught us anything, it is that things change, and they change fast. Some changes are more obvious than others, which begs the question: how can we be sure that something is really changing and it is not just another trick that noise is playing on us?
-Well, there is an obvious philosophical take on that question, which however interesting is way beyond my reach. In the world of Statistics and Probability, things are a bit simpler."><meta property="og:image" content="https://yannisza.github.io/img/yannis.jpg">
+  <meta property="og:description" content="This thesis details an approach known as change-point detection (CPD) that aims to detect changes in the mean, variance and covariance of a time series. The scope of CPD is limited to an on-line (real-time) Bayesian spatio-temporal setting. In this setting, the goal of CPD is to provide step-ahead predictions and partition the time series into disjoint segments every time a new datum is received using Bayesian inference. This is achieved by modelling each datum as a sample from a data-generating process which we are imitating using a probability distribution as a model."><meta property="og:image" content="https://yannisza.github.io/img/yannis.jpg">
   <meta property="twitter:image" content="https://yannisza.github.io/img/yannis.jpg"><meta property="og:locale" content="en-gb">
   
     
@@ -554,11 +552,10 @@ Well, there is an obvious philosophical take on that question, which however int
   <div class="article-container">
 
     <div class="article-style">
-      <p>If the information age has taught us anything, it is that things change, and they change fast. Some changes are more obvious than others, which begs the question: how can we be sure that something is really changing and it is not just another trick that noise is playing on us?</p>
-<p>Well, there is an obvious philosophical take on that question, which however interesting is way beyond my reach. In the world of Statistics and Probability, things are a bit simpler.</p>
-<p>I decided to take on the task of answering that question as part of my final year undergraduate thesis, which was supervised by 
-<a href="https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/damoulas/" target="_blank" rel="noopener">Dr. Theodoros Damoulas.</a>
- My focus was on developing an Bayesian online changepoint detection framework for discrete data generating processes (point processes).</p>
+      <p>This thesis details an approach known as change-point detection (CPD) that aims to detect changes in the mean, variance and covariance of a time series. The scope of CPD is limited to an on-line (real-time) Bayesian spatio-temporal setting. In this setting, the goal of CPD is to provide step-ahead predictions and partition the time series into disjoint segments every time a new datum is received using Bayesian inference. This is achieved by modelling each datum as a sample from a data-generating process which we are imitating using a probability distribution as a model. At each time step the most likely model is chosen among a universe of potential models. This leads to the development of the Bayesian on-line change-point detection and model selection (BOCDMS) algorithm which has a linear computational and storage complexity in the number of observations.</p>
+<p>Model selection is narrowed by employing two conjugate point process models: the Poisson Gamma (PG) and Multinomial Dirichlet (MD) models. We study the properties of these models and assess their sensitivity and performance on four synthetic and three real-world datasets, the latter of which are related to crime in Chicago, property transactions in the UK and cryptocurrency transactions.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <p>You can <strong>read my entire thesis 
 <a href="https://yannisza.github.io/files/dissertation.pdf" target="_blank" rel="noopener">here.</a>
 </strong></p>

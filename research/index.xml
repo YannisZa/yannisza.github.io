@@ -5,7 +5,7 @@
     <link>https://yannisza.github.io/research/</link>
       <atom:link href="https://yannisza.github.io/research/index.xml" rel="self" type="application/rss+xml" />
     <description>Research</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>© 2020</copyright><lastBuildDate>Wed, 15 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>© 2020</copyright><lastBuildDate>Tue, 14 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yannisza.github.io/img/yannis.jpg</url>
       <title>Research</title>
@@ -13,12 +13,27 @@
     </image>
     
     <item>
+      <title>Stochastic modelling of urban travel demand</title>
+      <link>https://yannisza.github.io/research/stochastic-modelling-of-urban-travel-demand/</link>
+      <pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://yannisza.github.io/research/stochastic-modelling-of-urban-travel-demand/</guid>
+      <description>&lt;p&gt;Modelling of evolution of urban travel demand is fundamental for urban planners and policy makers to assess the spatial demand for transportation capacity and decide on appropriate interventions. We follow the approach of (Ellam et al., 2018) and introduce a novel application of spatial interaction models and a mathematical evolution of their dynamics to urban travel demand. We exploit economic structure characteristics (e.g. employment) to inform travel de- mand between a set of origin and destination locations. The economic structural variables are described by a potential function defined in terms of utility and cost functions. We also use a system of stochastic differential equations to model temporal travel demand evolution. We cal- ibrate our model using a Bayesian framework that formally incorporates uncertainty involved in the process due to random noise or unexplained events and propagates it into parameter inference. We apply our model to London’s 2001 commuter flow data and find that we can ad- equately reconstruct the flow matrix only through the use of employment data as a latent force driving travel demand. We compute a Euclidean distance-based and transportation network- based cost matrices and find that the latter is marginally better at explaining travel demand. Finally, we overcome computational challenges arising from a doubly intractable posterior by applying appropriate Markov Chain Monte Carlo schemes for various noise regimes.&lt;/p&gt;
+&lt;p&gt;You can &lt;strong&gt;read my full report 
+&lt;a href=&#34;https://yannisza.github.io/files/mres_project.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;
+&lt;/strong&gt; and &lt;strong&gt;look at my codebase 
+&lt;a href=&#34;https://github.com/YannisZa/stochastic-travel-demand-modelling&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here.&lt;/a&gt;
+&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Bayesian inversion of hydrological models</title>
       <link>https://yannisza.github.io/research/introduction-to-bayesian-hydrological-modelling/</link>
       <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://yannisza.github.io/research/introduction-to-bayesian-hydrological-modelling/</guid>
-      <description>&lt;p&gt;What does a hydrologist do when they want to estimate the rate of water volume generation and cannot calibrate their parametric model? Well, there are many answers to that question. A particularly robust one involves treating the model parameters as random variables, also known as a &lt;em&gt;Bayesian&lt;/em&gt; treatment of the model.&lt;/p&gt;
-&lt;p&gt;In my first 8-week mini-project in Cambridge I attempted to do just that; introduce an approach in hydrology that incorporates domain expertise from hydrological models and data into a unified (hybrid) modelling framework. The &lt;em&gt;Bayesian&lt;/em&gt; nature of the framework meant that one can quantify the uncertainty in model parameters and propagate it all the way to model predictions of water discharge.&lt;/p&gt;
+      <description>&lt;p&gt;Highways England’s objective to improve the health and safety of its customers is tightly linked to better moni- toring of on-road water discharge. The increasing climate volatility can impede accurate hydrological modelling and therefore a probabilistic approach is adopted to modelling on-road rainfall-runoff. This report illustrates the potential of using a hybrid of statistical and hydrological models to better understand on-road water con- ditions. The study area is a major A-road in north-west of England. Three models are employed; a lumped linear reservoir (LR), a non-linear storage (NLS) and a spatially-distributed HYMOD model. These models are then used to simulate and discharge data using rainfall and potential evapotranspiration data from the Climate hydrology and ecology research support system (CHESS). The same models are treated in a Bayesian manner to make inference by assigning priors over their tuning parameters. Parameter posteriors and marginal likelihoods are computed using a Sequential Monte Carlo (SMC) sampler. Data fits and Bayes factors are examined to assess goodness of fit and identify the best model(s), which according to the data are the linear reservoir and non-linear storage models.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;You can &lt;strong&gt;read my full report 
 &lt;a href=&#34;https://yannisza.github.io/files/mini_project_censored.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;
 &lt;/strong&gt; and &lt;strong&gt;look at my codebase 
@@ -32,11 +47,10 @@
       <link>https://yannisza.github.io/research/bayesian-online-changepoint-detection-of-point-processes/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
       <guid>https://yannisza.github.io/research/bayesian-online-changepoint-detection-of-point-processes/</guid>
-      <description>&lt;p&gt;If the information age has taught us anything, it is that things change, and they change fast. Some changes are more obvious than others, which begs the question: how can we be sure that something is really changing and it is not just another trick that noise is playing on us?&lt;/p&gt;
-&lt;p&gt;Well, there is an obvious philosophical take on that question, which however interesting is way beyond my reach. In the world of Statistics and Probability, things are a bit simpler.&lt;/p&gt;
-&lt;p&gt;I decided to take on the task of answering that question as part of my final year undergraduate thesis, which was supervised by 
-&lt;a href=&#34;https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/damoulas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Theodoros Damoulas.&lt;/a&gt;
- My focus was on developing an Bayesian online changepoint detection framework for discrete data generating processes (point processes).&lt;/p&gt;
+      <description>&lt;p&gt;This thesis details an approach known as change-point detection (CPD) that aims to detect changes in the mean, variance and covariance of a time series. The scope of CPD is limited to an on-line (real-time) Bayesian spatio-temporal setting. In this setting, the goal of CPD is to provide step-ahead predictions and partition the time series into disjoint segments every time a new datum is received using Bayesian inference. This is achieved by modelling each datum as a sample from a data-generating process which we are imitating using a probability distribution as a model. At each time step the most likely model is chosen among a universe of potential models. This leads to the development of the Bayesian on-line change-point detection and model selection (BOCDMS) algorithm which has a linear computational and storage complexity in the number of observations.&lt;/p&gt;
+&lt;p&gt;Model selection is narrowed by employing two conjugate point process models: the Poisson Gamma (PG) and Multinomial Dirichlet (MD) models. We study the properties of these models and assess their sensitivity and performance on four synthetic and three real-world datasets, the latter of which are related to crime in Chicago, property transactions in the UK and cryptocurrency transactions.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;You can &lt;strong&gt;read my entire thesis 
 &lt;a href=&#34;https://yannisza.github.io/files/dissertation.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here.&lt;/a&gt;
 &lt;/strong&gt;&lt;/p&gt;
